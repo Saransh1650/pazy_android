@@ -1,0 +1,32 @@
+name: pazy_android
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  aes_crypt_null_safe: ^3.0.0
+  cached_network_image: ^3.3.1
+  cloud_firestore: ^5.1.0
+  encrypt: ^5.0.3
+  firebase_core: ^3.2.0
+  firebase_storage: ^12.1.1
+  flutter:
+    sdk: flutter
+  flutter_expandable_fab: ^2.1.0
+  get: ^4.6.6
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  intl: ^0.19.0
+  local_auth: ^2.2.0
+  share_plus: ^4.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
